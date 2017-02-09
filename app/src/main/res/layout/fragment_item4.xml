@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.robot.test.fragments.item4">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout style="@style/relativeLayoutFr4">
+
+            <ImageView style="@style/imageViewFr4"
+                app:srcCompat="@drawable/img1"
+                android:id="@+id/imageView3"/>
+
+            <RatingBar style="@style/Base.Widget.AppCompat.RatingBar.Indicator.ratingBarFr4"
+                android:id="@+id/ratingBar_small"
+                android:rating="4.5"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_toRightOf="@+id/imageView3"
+                android:layout_toEndOf="@+id/imageView3"/>
+
+            <TextView style="@style/textViewFr4"
+                android:text="@string/corporationOfMonsters"
+                android:id="@+id/textView"
+                android:layout_above="@+id/ratingBar_small"
+                android:layout_alignLeft="@+id/ratingBar_small"
+                android:layout_alignStart="@+id/ratingBar_small" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/relativeLayoutFr4">
+
+            <ImageView style="@style/imageViewFr4"
+                app:srcCompat="@drawable/img2"
+                android:id="@+id/imageView4"/>
+
+            <RatingBar style="@style/Base.Widget.AppCompat.RatingBar.Indicator.ratingBarFr4"
+                android:id="@+id/ratingBar2"
+                android:rating="5"
+                android:layout_alignBottom="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:layout_toEndOf="@+id/imageView4" />
+
+            <TextView style="@style/textViewFr4"
+                android:text="@string/squirrel"
+                android:id="@+id/textView2"
+                android:layout_above="@+id/ratingBar2"
+                android:layout_alignLeft="@+id/ratingBar2"
+                android:layout_alignStart="@+id/ratingBar2" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/relativeLayoutFr4">
+
+            <ImageView style="@style/imageViewFr4"
+                app:srcCompat="@drawable/img3"
+                android:id="@+id/imageView5" />
+
+            <RatingBar style="@style/Base.Widget.AppCompat.RatingBar.Indicator.ratingBarFr4"
+                android:id="@+id/ratingBar3"
+                android:rating="4.5"
+                android:layout_alignBottom="@+id/imageView5"
+                android:layout_toRightOf="@+id/imageView5"
+                android:layout_toEndOf="@+id/imageView5"
+                />
+
+            <TextView style="@style/textViewFr4"
+                android:text="@string/minions"
+                android:id="@+id/textView3"
+                android:layout_above="@+id/ratingBar3"
+                android:layout_alignLeft="@+id/ratingBar3"
+                android:layout_alignStart="@+id/ratingBar3" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/relativeLayoutFr4">
+
+            <ImageView style="@style/imageViewFr4"
+                app:srcCompat="@drawable/img4"
+                android:id="@+id/imageView6"/>
+
+            <RatingBar style="@style/Base.Widget.AppCompat.RatingBar.Indicator.ratingBarFr4"
+                android:id="@+id/ratingBar4"
+                android:rating="4"
+                android:layout_alignBottom="@+id/imageView6"
+                android:layout_toRightOf="@+id/imageView6"
+                android:layout_toEndOf="@+id/imageView6" />
+
+            <TextView style="@style/textViewFr4"
+                android:text="@string/mashaandbear"
+                android:id="@+id/textView4"
+                android:layout_above="@+id/ratingBar4"
+                android:layout_alignLeft="@+id/ratingBar4"
+                android:layout_alignStart="@+id/ratingBar4" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

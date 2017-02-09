@@ -1,0 +1,116 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.robot.test.fragments.item8">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view"
+                card_view:cardCornerRadius="4dp"
+                style="@style/MyCardViewStyle" >
+
+                <TextView style="@style/match.textViewFr8"
+                    android:id="@+id/info_text"
+                    android:text="@string/person1" />
+
+                <TextView style="@style/match.textViewFr8_disc"
+                    android:id="@+id/info_text11"
+                    android:text="@string/person1_disc" />
+
+                <ImageView style="@style/imageViewFr8"
+                    app:srcCompat="@drawable/worker1"
+                    android:id="@+id/ImageView7"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view2="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view2"
+                card_view2:cardCornerRadius="4dp"
+                style="@style/MyCardViewStyle" >
+
+                <TextView style="@style/match.textViewFr8"
+                    android:id="@+id/info_text2"
+                    android:text="@string/person2" />
+
+                <TextView style="@style/match.textViewFr8_disc"
+                    android:id="@+id/info_text21"
+                    android:text="@string/person2_disc" />
+
+                <ImageView style="@style/imageViewFr8"
+                    app:srcCompat="@drawable/worker2"
+                    android:id="@+id/ImageView8"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view3="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view3"
+                card_view3:cardCornerRadius="4dp"
+                style="@style/MyCardViewStyle" >
+
+                <TextView style="@style/match.textViewFr8"
+                    android:id="@+id/info_text3"
+                    android:text="@string/person3" />
+
+                <TextView style="@style/match.textViewFr8_disc"
+                    android:id="@+id/info_text31"
+                    android:text="@string/person3_disc" />
+
+                <ImageView style="@style/imageViewFr8"
+                    app:srcCompat="@drawable/worker3"
+                    android:id="@+id/ImageView9"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view4="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view4"
+                card_view4:cardCornerRadius="4dp"
+                style="@style/MyCardViewStyle" >
+
+                <TextView style="@style/match.textViewFr8"
+                    android:id="@+id/info_text4"
+                    android:text="@string/person4" />
+
+                <TextView style="@style/match.textViewFr8_disc"
+                    android:id="@+id/info_text41"
+                    android:text="@string/person4_disc" />
+
+                <ImageView style="@style/imageViewFr8"
+                    app:srcCompat="@drawable/worker4"
+                    android:id="@+id/ImageView10"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view5="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view5"
+                card_view5:cardCornerRadius="4dp"
+                style="@style/MyCardViewStyle" >
+
+                <TextView style="@style/match.textViewFr8"
+                    android:id="@+id/info_text5"
+                    android:text="@string/person5" />
+
+                <TextView style="@style/match.textViewFr8_disc"
+                    android:id="@+id/info_text51"
+                    android:text="@string/person5_disc" />
+
+                <ImageView style="@style/imageViewFr8"
+                    app:srcCompat="@drawable/worker5"
+                    android:id="@+id/ImageView11"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

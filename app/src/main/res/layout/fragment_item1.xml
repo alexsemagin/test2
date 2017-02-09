@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.robot.test.fragments.item1"
+    android:orientation="vertical">
+
+    <TextView style="@style/textViewFr1"
+        android:text="@string/_1"
+        android:background="#F00"
+        android:id="@+id/textView2" />
+
+    <TextView style="@style/textViewFr1"
+        android:text="@string/_2"
+        android:background="#0F0"
+        android:id="@+id/textView3" />
+
+    <TextView style="@style/textViewFr1"
+        android:text="@string/_3"
+        android:background="#00F"
+        android:id="@+id/textView4" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.robot.test.fragments.item7">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TableLayout style="@style/match"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_gravity="center">
+
+            <ImageButton style="@style/match"
+                android:id="@+id/button4"
+                android:src="@drawable/ic_menu_camera" />
+
+            <ImageButton style="@style/match"
+                android:id="@+id/button5"
+                android:src="@drawable/ic_menu_gallery" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_gravity="center">
+
+            <ImageButton style="@style/match"
+                android:id="@+id/button7"
+                android:src="@drawable/ic_menu_manage" />
+
+            <ImageButton style="@style/match"
+                android:id="@+id/button6"
+                android:src="@drawable/ic_menu_send" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_gravity="center">
+
+            <ImageButton style="@style/match"
+                android:id="@+id/button9"
+                android:src="@drawable/ic_menu_share" />
+
+            <ImageButton style="@style/match"
+                android:id="@+id/button8"
+                android:src="@drawable/ic_menu_slideshow" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

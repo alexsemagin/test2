@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.robot.test.fragments.item3">
+
+    <TextView style="@style/textViewFr3"
+        android:text="@string/top_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView5" />
+
+    <TextView style="@style/textViewFr3"
+        android:text="@string/bottom_content_here"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textView6" />
+
+    <TextView style="@style/textViewFr3"
+        android:text="@string/_1st"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/textView8"
+        android:id="@+id/textView7" />
+
+    <TextView style="@style/textViewFr3.red"
+        android:text="@string/_2nd"
+        android:layout_centerInParent="true"
+        android:id="@+id/textView8" />
+
+    <TextView style="@style/textViewFr3"
+        android:text="@string/_3rd"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView8"
+        android:id="@+id/textView9" />
+
+</RelativeLayout>
