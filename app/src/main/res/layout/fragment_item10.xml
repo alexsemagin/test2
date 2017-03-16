@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/fragment_item10"
     tools:context="com.example.robot.test.fragments.item10">
 
     <!-- TODO: Update blank fragment layout -->
@@ -44,5 +45,4 @@
             android:layout_columnSpan="4"
             android:layout_gravity="fill" />
     </GridLayout>
-
 </FrameLayout>

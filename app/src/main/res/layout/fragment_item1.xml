@@ -2,9 +2,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/fragment_item1"
     tools:context="com.example.robot.test.fragments.item1"
     android:orientation="vertical">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
     <TextView style="@style/textViewFr1"
         android:text="@string/_1"
         android:background="#F00"
@@ -19,5 +29,5 @@
         android:text="@string/_3"
         android:background="#00F"
         android:id="@+id/textView4" />
-
+</LinearLayout>
 </LinearLayout>

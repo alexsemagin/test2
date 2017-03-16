@@ -2,8 +2,28 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/Delete_fragment1"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/delete_fragment1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Delete_fragment2"
+        android:orderInCategory="100"
+        android:title="@string/delete_fragment2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Add_fragment1"
+        android:orderInCategory="100"
+        android:title="@string/add_fragment1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Add_fragment2"
+        android:orderInCategory="100"
+        android:title="@string/add_fragment2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:title="@string/settings"
         app:showAsAction="never" />
 </menu>

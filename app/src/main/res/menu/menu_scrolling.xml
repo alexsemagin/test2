@@ -3,8 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.robot.test.fragments.ScrollingActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/Delete_fragment1"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/delete_fragment1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Delete_fragment2"
+        android:orderInCategory="100"
+        android:title="@string/delete_fragment2"
         app:showAsAction="never" />
 </menu>
